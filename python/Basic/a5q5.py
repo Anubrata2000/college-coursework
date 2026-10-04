@@ -1,0 +1,5 @@
+l=input("Enter a list of elements seperated by space:")
+l=l.split()
+print("The list elements are:",l," ")
+l.insert(6,70)
+print("Final list:",l)

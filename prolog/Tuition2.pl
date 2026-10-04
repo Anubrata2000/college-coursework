@@ -1,0 +1,9 @@
+animal(lion).
+animal(parrot).
+animal(peacock).
+animal(tiger).
+feather(crow).
+feather(parrot).
+feather(hen).
+feather(peacock).
+isbird(X):-animal(X),feather(X).

@@ -1,0 +1,6 @@
+Delete Node from BST:-
+
+1. Search the item and return the node and its parent.
+2. Check whether the node is having 0,1 or 2 chid.
+3. If node has 0 or 1 children then delete node then its single/zero child will be the child of its parent.
+4. Find inorder successor and parent of that successor.  

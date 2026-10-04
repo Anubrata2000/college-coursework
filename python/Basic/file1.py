@@ -1,0 +1,28 @@
+f=open('input1.txt','w')
+f.write('I would like to go')
+f.close()
+f=open('input2.txt','w')
+f.write('I will go')
+f.close()
+f=open('input1.txt','r')
+a=f.read()
+print(a)
+f.close()
+f=open('input2.txt','r')
+b=f.read()
+print(b)
+f.close()
+f=open('input3.txt','w')
+f.write('10 20 30 40')
+f.close()
+f=open('input3.txt')
+s=f.readline()
+s=s.split()
+s=[int(i) for i in s]
+sum=0
+for i in s:
+    sum+=i
+f.close()
+f=open('output4.txt','w')
+f.write(str(sum))
+f.close()
